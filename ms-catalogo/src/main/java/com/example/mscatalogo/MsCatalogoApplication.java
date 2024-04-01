@@ -14,7 +14,6 @@ public class MsCatalogoApplication {
         SpringApplication.run(MsCatalogoApplication.class, args);
     }
 
-
     @Bean
     public OpenAPI custumOpenAPI(){
         return new OpenAPI().info (new Info()
@@ -26,3 +25,5 @@ public class MsCatalogoApplication {
         );
     }
 }
+
+
