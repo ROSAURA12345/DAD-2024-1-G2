@@ -1,6 +1,5 @@
-
 server:
-  port: 8083
+  port: 8084
 springdoc:
   api-docs:
     enabled: true
@@ -14,7 +13,7 @@ spring:
     show-sql: true
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/ms-cliente
+    url: jdbc:mysql://localhost:3306/ms-pedido
     username: root
     password:
 eureka:
