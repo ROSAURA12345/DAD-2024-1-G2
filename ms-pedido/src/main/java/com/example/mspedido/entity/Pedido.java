@@ -20,4 +20,6 @@ public class Pedido {
     private BigDecimal total;
     private String vendedor;
     private String comentario;
+
+
 }
