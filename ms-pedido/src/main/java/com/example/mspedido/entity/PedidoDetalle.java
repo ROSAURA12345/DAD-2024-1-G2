@@ -12,14 +12,17 @@ public class PedidoDetalle {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String nombre_producto;
-    private Integer  cantidad;
+    private Double  cantidad;
     private BigDecimal precioUnitario;
-    private BigDecimal subtotal; // Subtotal del detalle (precioUnitario * cantidad)
 
+    private Double precio;
     private String descripcion;
+    private Integer productoId;
 
-    @ManyToOne
-    private Pedido pedido;
+    public PedidoDetalle() {
+        this.cantidad = (double) 0;
+        this.precio = (double) 0;
+    }
 
 
 }
