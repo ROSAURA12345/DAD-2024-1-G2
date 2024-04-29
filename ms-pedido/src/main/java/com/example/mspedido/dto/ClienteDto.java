@@ -15,5 +15,4 @@ public class ClienteDto {
     private String fecha;
     private String compras;
     private Number abono;
-
 }
