@@ -12,5 +12,4 @@ public class ProductoDto {
     private BigDecimal precio;
     private LocalDate fecha_creacion;
     private LocalDate fecha_fin;
-    private CategoriaDto categoriaDto;
 }
